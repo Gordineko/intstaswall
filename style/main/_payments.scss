@@ -1,0 +1,99 @@
+    //color
+    $color-button:#FF4370;
+    $bg-blu:#4559ED;
+    $fs-sans: 'Open Sans',
+    sans-serif;
+    .payments {
+        padding: 70px 0 94px 0;
+        text-align: center;
+        background: rgba(245, 247, 250, 0.5);
+        &__tit {
+            font-size: 14px;
+            line-height: 26px;
+            color: #080F23;
+            margin-bottom: 69px;
+        }
+        &__card {
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            max-width: 1011px;
+        }
+        &__title {
+            font-size: 12px;
+            line-height: 14px;
+            letter-spacing: 0.1em;
+            color: #080F23;
+        }
+    }
+    
+    .price {
+        width: 241px;
+        height: 375px;
+        padding: 27px 44px 63px 44px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border: 1px solid rgba(118, 129, 199, 0.3);
+        border-radius: 3px;
+        &__cost {
+            margin: 0 auto;
+            position: relative;
+            display: flex;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 100px;
+            line-height: 46px;
+            color: #FF4447;
+        }
+        &__cost_mini {
+            position: absolute;
+            top: -15px;
+            left: -28px;
+            font-size: 48px;
+            line-height: 46px;
+            letter-spacing: 0.0178571em;
+            color: #FF4447;
+        }
+        &__limit {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 24px;
+            color: #080F23;
+        }
+        &__list {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 24px;
+            color: #080F23;
+        }
+        li {
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: #080F23;
+        }
+        a {
+            font-size: 14px;
+            line-height: 24px;
+            text-decoration-line: underline;
+            color: #080F23;
+        }
+    }
+    
+    .price:hover {
+        position: relative;
+        opacity: 1;
+        transform: scale(1.1);
+        transition: transform 0.5s ease;
+        border: 1px solid #FF4447;
+        border-radius: 3px;
+    }
+    
+    .price:hover a {
+        color: #FC2A38;
+    }

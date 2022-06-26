@@ -1,0 +1,50 @@
+@import'_header';
+@import'./main/first';
+@import'./main/mac';
+@import'./main/service';
+@import'./main/cases';
+@import'./main/facilities';
+@import'./main/payments';
+@import'./main/trial';
+@import'./main/support';
+@import'_footer';
+//color
+$color-button:#FF4370;
+$bg-blu:#4559ED;
+$fs-sans: 'Open Sans',
+sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $fs-sans;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #4A4A4A;
+    margin-bottom: 18px;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 42px;
+    color: #080F23;
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 1106px;
+    padding: 0 15px;
+    margin: 0 auto;
+}

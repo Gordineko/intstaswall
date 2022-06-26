@@ -1,0 +1,56 @@
+//color
+$color-button:#FF4370;
+$bg-blu:#4559ED;
+$fs-sans: 'Open Sans';
+.first {
+    background-image: url(../img/BG.png);
+    background-size: cover;
+    padding: 64px 0 358px 0;
+    &__info {
+        text-align: center;
+        a {
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 17px;
+            color: #FFFFFF;
+        }
+        img {
+            margin: 22px 0 30px 0;
+        }
+    }
+    &__title {
+        max-width: 798px;
+        font-size: 25px;
+        line-height: 50px;
+        color: #FFFFFF;
+        margin: 0 auto;
+    }
+    &__button {
+        max-width: 400px;
+        margin: 0 auto 36px auto;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 36px;
+        a {
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 17px;
+            color: #FFFFFF;
+        }
+        a:hover {
+            background-color: $color-button;
+            border: none;
+        }
+        .button_left {
+            padding: 14px 23px;
+            border: 1px solid #E6E7E9;
+            border-radius: 100px;
+            margin-right: 20px;
+        }
+        .button_right {
+            padding: 14px 69px;
+            border-radius: 100px;
+            border: 1px solid #E6E7E9;
+        }
+    }
+}

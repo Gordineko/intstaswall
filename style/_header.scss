@@ -1,0 +1,48 @@
+//color
+$color-button:#FF4370;
+$bg-blu:#4559ED;
+$fs-sans: 'Open Sans';
+.header {
+    background-color: $bg-blu;
+    &__menu {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__navigation {
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        li {
+            padding: 20px 0;
+        }
+        a {
+            font-size: 13px;
+            line-height: 15px;
+            font-weight: 400;
+            padding: 21px 33px;
+            color: #FFFFFF;
+        }
+        li:hover {
+            background-color: $color-button;
+        }
+    }
+    &__button {
+        .button {
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 15px;
+            color: #FFFFFF;
+            margin-left: 22px;
+            padding: 9px 18px;
+        }
+        .button:hover {
+            padding: 9px 18px;
+            background-color: $color-button;
+            margin-left: 22px;
+            border-radius: 100px;
+        }
+    }
+}

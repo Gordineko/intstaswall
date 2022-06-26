@@ -1,0 +1,37 @@
+//color
+$color-button:#FF4370;
+$bg-blu:#4559ED;
+$fs-sans: 'Open Sans';
+.mac {
+    &__info {
+        background-color: $color-button;
+        color: #FFFFFF;
+    }
+    &__menu {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 16px;
+        justify-content: center;
+        background-color: #FF4370;
+    }
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+    }
+    &__href {
+        color: #FFFFFF;
+        margin-left: 60px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+    }
+    &__bg {
+        background: linear-gradient(0deg, rgba(245, 247, 250, 0.5) 0 30%, transparent 0);
+    }
+    &__view {
+        text-align: center;
+        margin-top: -424px;
+    }
+}

@@ -1,0 +1,37 @@
+//color
+$color-button:#FF4370;
+$bg-blu:#4559ED;
+$fs-sans: 'Open Sans',
+sans-serif;
+.facilities {
+    padding: 70px 0;
+    text-align: center;
+    &__card {
+        max-width: 730px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+}
+
+.tools {
+    width: 151px;
+    text-align: center;
+    margin-bottom: 30px;
+    &__title {
+        margin: 15px 0;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.0857143em;
+        color: #212121;
+    }
+    &__text {
+        font-size: 14px;
+        line-height: 22px;
+        color: #6B6D73;
+        background-color: #FFFFFF
+    }
+}

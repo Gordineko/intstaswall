@@ -1,0 +1,62 @@
+//color
+$color-button:#FF4370;
+$bg-blu:#4559ED;
+$fs-sans: 'Open Sans',
+sans-serif;
+.service {
+    padding: 70px 0;
+    h3 {
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.1em;
+        color: #4A4A4A;
+        margin-bottom: 20px;
+    }
+    h2 {
+        font-size: 36px;
+        line-height: 50px;
+        color: #4A4A4A;
+        margin-bottom: 18px;
+    }
+    &__main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__title {
+        text-align: center;
+        margin: 0 auto;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 55px;
+        max-width: 1035px;
+        color: #090D1A;
+        margin-bottom: 142px;
+    }
+    &__content {
+        max-width: 335px;
+    }
+    &__text {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 29px;
+        color: #4A4A4A;
+        margin-bottom: 20px;
+    }
+    &__button {
+        display: inline-block;
+        padding: 15px 45px;
+        background-color: $color-button;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 17px;
+        color: #FFFFFF;
+        border-radius: 50px
+    }
+    svg {
+        margin-left: 20px;
+    }
+}

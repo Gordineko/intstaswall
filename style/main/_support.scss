@@ -1,0 +1,64 @@
+//color
+$color-button:#FF4370;
+$bg-blu:#4559ED;
+$fs-sans: 'Open Sans',
+sans-serif;
+.support {
+    padding: 70px 0;
+    &__content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    &__info {
+        max-width: 370px;
+    }
+    &__text {
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 26px;
+        color: #080F23;
+    }
+    &__email {
+        font-size: 14px;
+        line-height: 26px;
+        color: #080F23;
+    }
+    &__form {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+    }
+    &__txt {
+        padding-left: 20px;
+        width: 460px;
+        height: 50px;
+        background: #FFFFFF;
+        border: 1px solid rgba(118, 129, 199, 0.3);
+        box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.0747849);
+        border-radius: 3px;
+        margin-bottom: 10px;
+    }
+    &__area {
+        padding: 15px 0 0 20px;
+        width: 460px;
+        height: 120px;
+        background: #FFFFFF;
+        border: 1px solid rgba(118, 129, 199, 0.3);
+        box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.0747849);
+        border-radius: 3px;
+        margin-bottom: 15px;
+    }
+    &__button {
+        padding: 9px 31px;
+        background-color: $color-button;
+        font-size: 13px;
+        line-height: 15px;
+        color: #FFFFFF;
+        border-radius: 100px;
+        margin-left: 368px;
+    }
+    svg {
+        margin-right: 18px;
+    }
+}

@@ -1,0 +1,38 @@
+//color
+$color-button:#FF4370;
+$bg-blu:#4559ED;
+$fs-sans: 'Open Sans',
+sans-serif;
+.footer {
+    padding: 39px 0;
+    background: rgba(245, 247, 250, 0.5);
+    &__nav {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    &__logo {
+        margin-right: 200px;
+    }
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 42px;
+    }
+    li {
+        margin-right: 40px;
+    }
+    a {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 18px;
+        color: #000000;
+    }
+    &__end {
+        font-size: 13px;
+        line-height: 22px;
+        text-align: center;
+        color: #080F23;
+    }
+}

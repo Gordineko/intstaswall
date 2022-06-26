@@ -1,0 +1,46 @@
+//color
+$color-button:#FF4370;
+$bg-blu:#4559ED;
+$fs-sans: 'Open Sans',
+sans-serif;
+.trial {
+    background-color: $bg-blu;
+    text-align: center;
+    padding: 70px 0;
+    h3 {
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.1em;
+        color: #FFFFFF;
+        margin-bottom: 18px;
+    }
+    h2 {
+        font-size: 36px;
+        line-height: 42px;
+        color: #F1F5FF;
+        margin-bottom: 20px;
+    }
+    &__title {
+        font-size: 14px;
+        line-height: 26px;
+        color: #F1F5FF;
+        margin-bottom: 25px;
+    }
+    &__button {
+        display: inline-block;
+        padding: 15px 45px;
+        background-color: $color-button;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 17px;
+        color: #FFFFFF;
+        border-radius: 50px;
+        margin-bottom: 15px;
+    }
+    &__text {
+        font-size: 13px;
+        line-height: 26px;
+        color: #9597AB;
+    }
+}
